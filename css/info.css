@@ -1,0 +1,31 @@
+@import url("../css/global.css");
+
+
+.info__container {
+padding: 0;
+  padding-top: 146px;
+  padding-bottom: 146px;
+}
+
+.info__block {
+  margin-right: auto;
+  max-width: 579px;
+}
+
+.info__item {
+  margin-bottom: 20px;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 68px;
+  color: var(--white);
+}
+
+.info__descr {
+  margin-bottom: 92px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  color: var(--white);
+}
+
+

@@ -1,0 +1,29 @@
+@import url("../css/global.css");
+
+
+.header {
+  background-color: var(--black);
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.header__img {
+  width: 173px;
+  height: 40px;
+}
+
+.header__navigation-list {
+  display: flex;
+}
+
+.header__navigation-item {
+  margin-right: 96px;
+  font-size: 18px;
+  font-weight: var(--bold);
+  color: var(--white);
+}
