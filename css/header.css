@@ -25,5 +25,34 @@
   margin-right: 96px;
   font-size: 18px;
   font-weight: var(--bold);
-  color: var(--white);
 }
+
+.header__navigation-link {
+  padding: 2px 6px;
+  color: var(--white);
+  transition: color 0.3s ease;
+}
+
+.header__navigation-link:hover {
+  color: var(--voilet);
+}
+
+.header__navigation-link:active {
+  color: var(--voilet_activ);
+}
+
+.header__navigation-link:focus {
+  background-color: var(--voilet_activ);
+  outline: var(--voilvoilet_activet);
+}
+
+.header__search {
+  position: relative;
+  padding: 2px;
+  transition: fill 0.3s ease-in-out;
+}
+
+.header__search:hover {
+  fill: var(--voilet_activ);
+}
+

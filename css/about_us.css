@@ -1,0 +1,14 @@
+@import url('../css/global');
+
+
+.about_us_container {
+  padding: 80px 0;
+}
+
+.about_us_item {
+  margin-bottom: 16px;
+}
+
+.about_us_description {
+  padding-right: 500px;
+}

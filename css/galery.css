@@ -1,0 +1,38 @@
+@import url('../css/global');
+
+.galery {
+  background-image: url('../img/galery-background.png');
+}
+
+.galery__container {
+  padding: 80px 0;
+}
+
+.galary__contant {
+  display: flex;
+  justify-content: space-between;
+}
+
+.galery__list_item {
+  display: flex;
+  margin-bottom: 20px;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.galery__item {
+  margin-bottom: 20px;
+  color: var(--white);
+}
+
+.galery__link {
+  color: var(--white);
+}
+
+.galery__list {
+  display: flex;
+}
+
+.galery__image:not(:nth-child(3)) {
+  margin-right: 50px;
+}

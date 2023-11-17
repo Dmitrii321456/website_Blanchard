@@ -37,6 +37,7 @@
   --black: #000000;
   --white: #ffffff;
   --voilet: #9D5CD0;
+  --voilet_activ: #7943A4;
 }
 
 html {
@@ -107,4 +108,15 @@ body {
   color: var(--white);
 }
 
+.item {
+  font-size: 48px;
+  font-weight: var(--regular);
+  line-height: normal;
+}
+
+.text {
+  font-size: 16px;
+  font-weight: var(--regular);
+  line-height: 32px;
+}
 
